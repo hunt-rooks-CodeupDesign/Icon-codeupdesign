@@ -170,3 +170,38 @@ header{
     display: flex;
     flex-wrap: wrap;
 }
+
+.selected{
+    display: flex;
+    align-content: center;
+    margin: auto;
+
+}
+.last{
+    display: flex;
+    justify-content: center;
+}
+.card-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.right-column{
+    display: flex;
+    flex-direction: column;
+   flex-wrap: wrap;
+}
+.left-column{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
