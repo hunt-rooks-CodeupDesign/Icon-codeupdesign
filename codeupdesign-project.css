@@ -90,9 +90,39 @@ header{
 /*    text-align: center;*/
 /*    border: solid 1px black*/
 /*}*/
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.left-title{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.right-title {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.left-column{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around ;
+
+
+}
 
 .card-container{
-    border: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-wrap: wrap;
 }
 .card-body{
     display: flex;
@@ -159,6 +189,27 @@ header{
     list-style-type: none;
 }
 
+.first-article{
+    display: flex;
+    flex-direction: row;
+    /*justify-content: space-between;*/
+    margin: 20px;
+}
+
+.second-article{
+    display: flex;
+    flex-direction: row;
+    /*justify-content: space-between;*/
+    margin: 20px;
+}
+
+.third-article{
+    display: flex;
+    flex-direction: row;
+    /*justify-content: space-between;*/
+    margin: 20px;
+}
+
 .small-image>img {
     height: 4em;
     width: 4em;
@@ -167,6 +218,14 @@ header{
 .article{
     font-weight: bolder;
     font-size: large;
+
+
+}
+
+.text-wrap{
+    padding: 10px;
+}
+
     display: flex;
     flex-wrap: wrap;
 }
@@ -205,3 +264,4 @@ main{
     justify-content: space-around;
     flex-direction: row;
 }
+
